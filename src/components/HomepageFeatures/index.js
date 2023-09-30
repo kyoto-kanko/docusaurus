@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '怠惰',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      怠惰とは、無駄な労力を避けるための効率を追求する心構えを指します。たとえば、同じコードを何度も書きたくないと感じるのは、この怠惰から来るものでしょう。この感覚は、再利用可能なコードを書いたり、繁重な作業を自動化する原動力となります。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '短気',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      短気というのは、自らの手でシステムやソフトウェアの改善を急ぎたいという意欲のことです。もしコンピュータが期待した通りに動作しなかった場合、それをただ受け入れるのではなく、すぐに修正や改善を求める気持ちが短気から来るのです。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '傲慢',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      傲慢とは、自分が書いたコードに誇りを持ち、他の人たちにもその良さを伝えたいという気持ちを示しています。この美徳の下では、コードは整理され、コメントやドキュメントも丁寧に書かれることが期待されます。
       </>
     ),
   },

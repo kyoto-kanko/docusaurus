@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '個人開発ブログ',
-  tagline: '「怠慢」「短気」「傲慢」',
+  title: '弱々エンジニアの独白',
+  tagline: '昨日の自分より成長できたらそれでヨシッ🐱👉',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'kyoto-kanko',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/icon.jpg',
         },
         items: [
           {
@@ -78,7 +78,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/kyoto-kanko',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,16 +100,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Qiita',
+                href: 'https://qiita.com/kyoto-kanko',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/kyoto_kanko_jp',
               },
             ],
           },
@@ -122,7 +118,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/kyoto-kanko',
               },
             ],
           },
