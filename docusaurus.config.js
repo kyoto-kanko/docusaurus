@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '弱々エンジニアの独白',
+  title: 'How To Engineering',
   tagline: '昨日の自分より成長できたらそれでヨシッ🐱👉',
   favicon: 'img/favicon.ico',
 
@@ -74,7 +74,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Profile',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -91,7 +91,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Profile',
                 to: '/docs/intro',
               },
             ],
