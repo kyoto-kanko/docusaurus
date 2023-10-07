@@ -7,8 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'How To Engineering',
-  tagline: '昨日の自分より成長できたらそれでヨシッ🐱👉',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.jpg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -82,47 +81,20 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://qiita.com/kyoto-kanko',
+            label: 'Qiita',
+            position: 'right',
+          },
+          {
+            href: 'https://twitter.com/kyoto_kanko_jp',
+            label: 'Twitter',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Profile',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Qiita',
-                href: 'https://qiita.com/kyoto-kanko',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/kyoto_kanko_jp',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/kyoto-kanko',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
