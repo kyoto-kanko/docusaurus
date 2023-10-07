@@ -9,3 +9,11 @@
   height: 200px;
   width: 200px;
 }
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
