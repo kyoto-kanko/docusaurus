@@ -61,7 +61,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      metadatas: [
+      metadata: [
         {name: 'google-site-verification', content: 's5Zl9qKDkx9g_x1OTSFqiKoykFlx-mZtcjMISrWkUEU'}
       ],
       image: 'img/docusaurus-social-card.jpg',
