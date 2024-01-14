@@ -102,7 +102,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    metadata: [{name: 'google-site-verification', content: 's5Zl9qKDkx9g_x1OTSFqiKoykFlx-mZtcjMISrWkUEU'}]
+    customFields: {
+      metadata: [{name: 'google-site-verification', content: 's5Zl9qKDkx9g_x1OTSFqiKoykFlx-mZtcjMISrWkUEU'}],
+    },
 };
 
 module.exports = config;
