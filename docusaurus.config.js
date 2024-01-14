@@ -61,6 +61,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      metadatas: [
+        {name: 'google-site-verification', content: 's5Zl9qKDkx9g_x1OTSFqiKoykFlx-mZtcjMISrWkUEU'}
+      ],
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'kyoto-kanko',
@@ -102,9 +105,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    customFields: {
-      metadata: [{name: 'google-site-verification', content: 's5Zl9qKDkx9g_x1OTSFqiKoykFlx-mZtcjMISrWkUEU'}],
-    },
 };
 
 module.exports = config;
