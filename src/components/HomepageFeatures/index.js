@@ -50,12 +50,25 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h1 className={styles.topics}>New Topics</h1>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=3Z2OIC+4S2ALU+4UAG+60H7L" rel="nofollow">
+          <img border="0" width="300" height="250" alt="" src="https://www24.a8.net/svt/bgt?aid=240310164289&wid=001&eno=01&mid=s00000022588001010000&mc=1"></img>
+        </a>
+        <img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=3Z2OIC+4S2ALU+4UAG+60H7L" alt=""></img>
+        <a href="https://px.a8.net/svt/ejp?a8mat=3Z2OIC+4XF71U+4K3S+60WN5" rel="nofollow">
+        <img border="0" width="300" height="250" alt="" src="https://www21.a8.net/svt/bgt?aid=240310164298&wid=001&eno=01&mid=s00000021268001012000&mc=1"></img>
+        </a>
+        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3Z2OIC+4XF71U+4K3S+60WN5" alt=""></img>
+        <a href="https://px.a8.net/svt/ejp?a8mat=3Z2OIC+58QFJM+33T0+25FUNL" rel="nofollow">
+        <img border="0" width="300" height="250" alt="" src="https://www27.a8.net/svt/bgt?aid=240310164317&wid=001&eno=01&mid=s00000014490013007000&mc=1"></img></a>
+        <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=3Z2OIC+58QFJM+33T0+25FUNL" alt=""></img>
+        <a href="https://px.a8.net/svt/ejp?a8mat=3Z2OIC+53YYPE+3ZMA+609HT" rel="nofollow">
+        <img border="0" width="300" height="250" alt="" src="https://www24.a8.net/svt/bgt?aid=240310164309&wid=001&eno=01&mid=s00000018613001009000&mc=1"></img></a>
+        <img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=3Z2OIC+53YYPE+3ZMA+609HT" alt=""></img>
       </div>
     </section>
   );
